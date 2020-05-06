@@ -1,6 +1,12 @@
-# Configuration for React App
+# React App Code Standardization
 
-This folder contains configuration files to ensure consitency in code styling, linting & testing.
+The intent of this folder is to standardize code across team members in a react based project.
+
+It provides consitency in following:
+
+-   code styling
+-   linting
+-   testing
 
 Vscode extensions and lint libraries are used to enforce standards.
 
@@ -19,4 +25,6 @@ Add these files to your react project to code styling & linting benefits.
 -   `.eslintrc.json` - eslint extension configuration
 -   `jest.config.js` - jest configuration
 -   `.babelrc` - babel configuration
--   `.vscode/settings.json` - vscode file to enforce prettier as default formatter
+-   `.vscode`
+    -   `extension.json` - recommends user to download usefult extensions
+    -   `settings.json` - vscode file to enforce prettier as default formatter
