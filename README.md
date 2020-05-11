@@ -14,6 +14,7 @@ Extensions Required:
 
 -   [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 -   [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+-   [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
 
 VSCode settings files configured to enforce these extensions across team.
 

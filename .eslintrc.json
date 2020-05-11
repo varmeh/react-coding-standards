@@ -16,7 +16,7 @@
 		"ecmaVersion": 2018,
 		"sourceType": "module"
 	},
-	"plugins": ["react"],
+	"plugins": ["react", "jest"],
 	"settings": {
 		"react": {
 			"createClass": "createReactClass",
@@ -40,6 +40,16 @@
 			{ "checkAttributes": true, "indentLogicalExpressions": true }
 		],
 		"react/jsx-indent-props": [2, "tab"],
-		"import/prefer-default-export": 0
+		"import/prefer-default-export": 0,
+		"import/no-extraneous-dependencies": [
+			"error",
+			{
+				"devDependencies": true,
+				"optionalDependencies": true,
+				"peerDependencies": true
+			}
+		],
+		"jest/valid-describe": "error",
+		"jest/require-top-level-describe": "error"
 	}
 }
